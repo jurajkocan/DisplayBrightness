@@ -1,0 +1,8 @@
+.vs/
+
+ScreenBrighter/bin/
+ScreenBrighter/obj/
+WmiService/bin/
+WmiService/obj/
+
+wmiprov.dll

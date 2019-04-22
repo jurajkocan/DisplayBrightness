@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenBrighter", "ScreenBrighter\ScreenBrighter.csproj", "{D600EE58-A14F-4376-821D-87DD38B38F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiService", "WmiService\WmiService.csproj", "{41F51319-9C2E-4CF3-906A-DD6A225B2AFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D600EE58-A14F-4376-821D-87DD38B38F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D600EE58-A14F-4376-821D-87DD38B38F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D600EE58-A14F-4376-821D-87DD38B38F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D600EE58-A14F-4376-821D-87DD38B38F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F51319-9C2E-4CF3-906A-DD6A225B2AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F51319-9C2E-4CF3-906A-DD6A225B2AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F51319-9C2E-4CF3-906A-DD6A225B2AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F51319-9C2E-4CF3-906A-DD6A225B2AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA62530C-B1ED-4628-A747-222D5DFF671F}
+	EndGlobalSection
+EndGlobal
