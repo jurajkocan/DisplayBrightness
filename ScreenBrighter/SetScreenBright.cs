@@ -16,7 +16,7 @@ namespace ScreenBrighter
         private const int timeInterval = 5000;
         //private const int maxUserAfkTime= 60000;
         private const int maxUserAfkTime = 5000; // FIXME: for debugg
-        private int logEventId = 1;
+        private int logEventId = 1; 
 
         public enum ServiceState
         {
@@ -145,6 +145,7 @@ namespace ScreenBrighter
 
         public void OnTimer(object sender, System.Timers.ElapsedEventArgs args)
         {
+            var cursorClip = System.Windows.Forms.Cursor.Clip;
             int lastUserInput = SetScreenBrightService.GetLastInputTime();
             if (lastUserInput > maxUserAfkTime / 1000) {
                 BrightnessService.SetBrightness(5, 50);
